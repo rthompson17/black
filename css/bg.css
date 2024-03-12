@@ -134,3 +134,9 @@ background:url(../images/background/subheader.jpg)top fixed;
 	}
 }
 	
+#subheader {
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center center !important;
+}
+
