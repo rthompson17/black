@@ -45,6 +45,15 @@
 	<!-- custom css -->
     <link rel="stylesheet" href="css/custom-industry.css" type="text/css">
     <link rel="stylesheet" href="css/font-style-2.css" type="text/css">
+
+    <style>
+        @media (max-width: 768px) { /* Adjusts for devices with width up to 768px */
+            #certifications {
+                width: 100% !important; /* Ensures this rule takes precedence */
+            }
+        }
+    </style>
+
 </head>
 
 <body id="homepage" class="de_light">
@@ -237,16 +246,17 @@
             <!-- section close -->
 
             <!-- section begin -->
-            <section id="section-fun-facts-2" class="padding60 text-light" data-bgimage="url(images-industry/background/bg-4.jpg" data-stellar-background-ratio=".1">
+            <!-- section begin -->
+            <section id="section-fun-facts-2" class="text-light" data-bgimage="url(images-industry/background/bg-4.jpg" data-stellar-background-ratio=".1" style="padding-top:40px; padding-bottom: 40px;">
                 <div class="container">
                     <div class="row" style="justify-content: center;">
-                        <h2 class="text-white" style="display: flex; align-items: center; justify-content: center; padding-bottom:2em;"></span>CERTIFICATIONS</h2>
-                        <img src="black_images/blackllc-engineering-certifications-3.webp" style="width: 50%;">
-                       
+                        <h2 class="text-white" style="display: flex; align-items: center; justify-content: center; padding-bottom:2em;">CERTIFICATIONS</h2>
+                        <img src="black_images/blackllc-engineering-certifications-3.webp" id="certifications" style="width: 50%;">
                     </div>
-
                 </div>
             </section>
+            <!-- section close -->
+
             <!-- section close -->
 
             <!-- section begin -->
